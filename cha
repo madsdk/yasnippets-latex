@@ -1,0 +1,6 @@
+#contributor : Mads D. Kristensen <madsdk@gmail.com>
+#name : cha
+# --
+\chapter{${1:name}}
+\label{cha:${1:$(replace-regexp-in-string "[[:blank:]]" "_" text)}}
+$0

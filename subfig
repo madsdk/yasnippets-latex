@@ -1,0 +1,7 @@
+#contributor : Mads D. Kristensen <madsdk@gmail.com>
+#name : subfig
+# --
+\subfigure[${1:caption}]{
+  \label{fig:${2:label}}
+  $0
+}
