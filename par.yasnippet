@@ -3,5 +3,5 @@
 #name : par
 # --
 \paragraph{${1:name}}
-\label{par:${1:$(replace-regexp-in-string "[[:blank:]]" "_" text)}}
+\label{${2:"waiting for reftex-label call..."$(unless yas/modified-p (reftex-label nil 'dont-insert))}}
 $0

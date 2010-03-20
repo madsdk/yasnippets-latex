@@ -3,5 +3,5 @@
 #name : sub
 # --
 \subsection{${1:name}}
-\label{sub:${1:$(replace-regexp-in-string "[[:blank:]]" "_" text)}}
+\label{${2:"waiting for reftex-label call..."$(unless yas/modified-p (reftex-label nil 'dont-insert))}}
 $0
