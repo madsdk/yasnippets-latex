@@ -1,0 +1,7 @@
+#name: type func(args) { ... }
+# --
+${1:type} 
+${2:funcname}(${3:args})
+{
+    $0
+}
