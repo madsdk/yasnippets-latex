@@ -1,0 +1,23 @@
+# -*- mode: snippet -*-
+# contributor: Mads D. Kristensen <madsdk@gmail.com>
+# contributor : Song Qiang <tsiangsung@gmail.com>
+# key: article
+# group: skeleton
+# name: \documentclass{article} ...
+# --
+\documentclass[11pt]{article}
+
+\usepackage{times,fullpage,graphicx,amsmath,amssymb,namedplus,subfigure, multirow}
+\usepackage[pdfborder={0 0 0}]{hyperref}
+
+\title{${1:title}}
+\author{${2:Song Qiang}}
+
+\begin{document}
+\maketitle
+
+
+\bibliographystyle{${3:namedplus}}
+\bibliography{${4:reference.bib}}
+
+\end{document}
