@@ -1,0 +1,5 @@
+# name : std::find(arg1, arg2, arg3)
+# group:  stl
+# --
+find(${1:v}.begin(), $1.end(), ${2:val}); 
+$0

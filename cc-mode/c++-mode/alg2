@@ -1,0 +1,5 @@
+# name : std::algorithm(arg1, arg2)
+# group:  stl
+# --
+${1:$$(yas/choose-value '("sort" "random_shuffle" "rotate" "reverse" "max_element" "min_element"))}(${2:v}.begin(), $2.end());
+$0

@@ -1,0 +1,5 @@
+# name : std::algorithm(arg1, arg2, arg3)
+# group:  stl
+# --
+${1:$$(yas/choose-value '("find" "copy" "transform" "count" "lower_bound" "upper_bound"))}(${2:v}.begin(), $2.end(), ${3:arg}); 
+$0

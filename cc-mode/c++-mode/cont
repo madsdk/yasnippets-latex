@@ -1,0 +1,4 @@
+# name : std::container<>
+# group:  stl
+# --
+${1:$$(yas/choose-value '("vector" "list" "map" "set" "stack" "queue" ))}<${2:$$(yas/choose-value '("size_t" "double" "int" "bool" ""))}> $0

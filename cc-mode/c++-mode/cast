@@ -1,0 +1,4 @@
+# name : std::static_cast<...>(...)
+# group:  stl
+# --
+${1:static_cast}<${2:$$(yas/choose-value '("size_t" "double" "int" "bool"))}>(${3:var})$0
