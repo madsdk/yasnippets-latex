@@ -1,0 +1,6 @@
+#name : switch () { ... } 
+# --
+switch (${1:expr})
+{
+	case:$2; break;
+} 
