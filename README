@@ -40,8 +40,4 @@ simply copying the snippets into the 'snippets/text-mode/latex-mode'
 subdirectory within your YASnippet installation.
 
 If Emacs is running you need to issue the 'yas/reload-all' command in
-<<<<<<< HEAD
 order to load the snippets.
-=======
-order to load the snippets.
->>>>>>> 707c83c183ce9209bc7b4d3f81f16d722e8b7092
