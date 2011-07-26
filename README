@@ -38,7 +38,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 In order to use these snippets you need to install Emacs, AucTeX,
 RefTeX, and YASnippet. Once that is done installation is done by
-simply copying the snippets into the 'snippets/text-mode/latex-mode'
+simply copying the snippets into the 'snippets/latex-mode'
 subdirectory within your YASnippet installation.
 
 If Emacs is running you need to issue the 'yas/reload-all' command in
