@@ -13,9 +13,9 @@ if [ ! -d "$1"/snippets/latex-mode ]; then
 fi
 
 # Copy needed files to the latex-mode dir.
-cp *.yasnippet "$1"/snippets/latex-mode/
-cp .yas-parents "$1"/snippets/latex-mode/
-cp .yas-ignore-filenames-as-triggers "$1"/snippets/latex-mode/
-cp .yas-make-groups "$1"/snippets/latex-mode/
+cp snippets/*.yasnippet "$1"/snippets/latex-mode/
+cp snippets/.yas-parents "$1"/snippets/latex-mode/
+cp snippets/.yas-ignore-filenames-as-triggers "$1"/snippets/latex-mode/
+cp snippets/.yas-make-groups "$1"/snippets/latex-mode/
 
 exit 0
