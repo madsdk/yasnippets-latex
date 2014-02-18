@@ -42,7 +42,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 In order to use these snippets you need to install Emacs, AucTeX,
 RefTeX, and YASnippet. Once that is done installation is done by
 simply copying the files .yas-parents, .yas-ignore-filenames-as-triggers,
-.yas-parents, and the snippets into the 'snippets/latex-mode'
+.yas-make-groups, and the snippets into the 'snippets/latex-mode'
 subdirectory within your YASnippet installation.
 
 You can also use the installation script install.sh. The script takes 
